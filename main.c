@@ -62,6 +62,8 @@ int main(int argc, char *argv[])
 		fEnp = fopen("encryptKey.txt", "wb");
 		fwrite(enc, pwlen, 1, fEnp);
 		fclose(fEnp);
+		
+		printf("success!!!\n");
 	}
 	else
 	{
