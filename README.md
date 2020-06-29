@@ -1,9 +1,9 @@
 # SimpleFileEncryption
 Simple file encryption
 
-usage : ./program  SourceFilename  EncryptedFilename  Key
+Usage : ./program  [SourceFilename]  [EncryptedFilename]  [Key]
 
-decrypt usage : ./program  EncryptedFilename  OriginalFile  Key
+Decrypt usage : ./program  [EncryptedFilename]  [OriginalFile]  [Key]
 
 Key's max length : 255
 
