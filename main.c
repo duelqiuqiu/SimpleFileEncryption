@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 	 */
 	char enc[255] = "abcd"; //default key
 	char destFile[255] = "tmp.encrypt"; //default Encrypted filename
-	if(argc > 2)
+	if(argc > 2 && strlen(argv[2]) > 0)
 	{
 		strcpy(destFile, argv[2]);
 	}
