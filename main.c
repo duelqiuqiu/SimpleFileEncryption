@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 	{
 		strcpy(destFile, argv[2]);
 	}
-	else
+	else if(argc > 1)
 	{
 		strcpy(destFile, argv[1]);
 		strcat(destFile, ".enp");
